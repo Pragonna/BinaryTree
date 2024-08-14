@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\bin\Debug\net8.0\BinaryTree.Console.exe
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\bin\Debug\net8.0\BinaryTree.Console.deps.json
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\bin\Debug\net8.0\BinaryTree.Console.runtimeconfig.json
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\bin\Debug\net8.0\BinaryTree.Console.dll
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\bin\Debug\net8.0\BinaryTree.Console.pdb
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.AssemblyInfo.cs
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.dll
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\refint\BinaryTree.Console.dll
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.pdb
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.genruntimeconfig.cache
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\ref\BinaryTree.Console.dll
