@@ -12,3 +12,4 @@ C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\refint
 C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.pdb
 C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.genruntimeconfig.cache
 C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\ref\BinaryTree.Console.dll
+C:\Users\User\source\repos\BinaryTree\BinaryTree.Console\obj\Debug\net8.0\BinaryTree.Console.sourcelink.json
