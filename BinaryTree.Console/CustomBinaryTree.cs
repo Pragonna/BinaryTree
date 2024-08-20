@@ -7,7 +7,7 @@ public class CustomBinaryTree : ICustomBinaryTree
         Root = new Node(value);
     }
 
-    public Node Add(int value) => CheckUntilBeNullWhenAdd(Root,value);
+    public Node Add(int value) => CheckUntilBeNullWhenAdd(Root, value);
     public void Remove(Guid id) => RemoveNode(Root, id);
     public Node FindOrDefault(Guid id) => FindNode(Root, id);
 
@@ -25,8 +25,8 @@ public class CustomBinaryTree : ICustomBinaryTree
             root = new Node(value);
             return root;
         }
-
-        if (root.Value < value)
+        var compare = root.Value.CompareTo(value);
+        if (compare < 1)
         {
             root.Right = CheckUntilBeNullWhenAdd(root.Right, value);
             return root;
@@ -60,10 +60,10 @@ public class CustomBinaryTree : ICustomBinaryTree
             if (_root != null)
                 return new Node
                 {
-                    Id=_root.Id,
-                    Left=_root.Left,
-                    Right=_root.Right,
-                    Value=_root.Value
+                    Id = _root.Id,
+                    Left = _root.Left,
+                    Right = _root.Right,
+                    Value = _root.Value
                 };
         }
 
@@ -76,19 +76,19 @@ public class CustomBinaryTree : ICustomBinaryTree
                     Id = _root.Id,
                     Left = _root.Left,
                     Right = _root.Right,
-                    Value =_root.Value
+                    Value = _root.Value
                 };
         }
 
         return default;
     }
 
-   /// <summary>
-   /// Remove Node
-   /// </summary>
-   /// <param name="root"></param>
-   /// <param name="id"></param>
-   /// <returns></returns>
+    /// <summary>
+    /// Remove Node
+    /// </summary>
+    /// <param name="root"></param>
+    /// <param name="id"></param>
+    /// <returns></returns>
     private Node RemoveNode(Node root, Guid id)
     {
         if (root.Id.Equals(id))
@@ -99,15 +99,15 @@ public class CustomBinaryTree : ICustomBinaryTree
 
         if (root.Right != null)
         {
-             root.Right = RemoveNode(root.Right, id);
+            root.Right = RemoveNode(root.Right, id);
             return root.Right;
         }
 
 
         if (root.Left != null)
         {
-             root.Left= RemoveNode(root.Left, id);
-             return root.Left;
+            root.Left = RemoveNode(root.Left, id);
+            return root.Left;
         }
 
         return default;

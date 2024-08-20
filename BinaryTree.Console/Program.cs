@@ -14,12 +14,12 @@ binary.Add( 21);
 binary.Add( 112);
 binary.Add( 45);
 
-var foundedNode = binary.FindOrDefault(node2.Right.Id);
-binary.Remove(node2.Right.Id);
-var foundRemovedNode = binary.FindOrDefault(node2.Right.Id);
+// var foundedNode = binary.FindOrDefault(node2.Right.Id);
+// binary.Remove(node2.Right.Id);
+// var foundRemovedNode = binary.FindOrDefault(node2.Right.Id); // will throw null reference exception
 
 BinaryHelper.ConsolePrint(binary);
-//TextDataManager.SaveToTextFile(binary);
+// TextDataManager.SaveToTextFile(binary);
 
 Console.WriteLine();
 
