@@ -1,4 +1,4 @@
-﻿
+
 public class CustomBinaryTree : ICustomBinaryTree
 {
     public Node Root { get; set; }
@@ -58,26 +58,14 @@ public class CustomBinaryTree : ICustomBinaryTree
         {
             _root = FindNode(root.Right, id);
             if (_root != null)
-                return new Node
-                {
-                    Id = _root.Id,
-                    Left = _root.Left,
-                    Right = _root.Right,
-                    Value = _root.Value
-                };
+                return _root;
         }
 
         if (root.Left != null)
         {
             _root = FindNode(root.Left, id);
             if (_root != null)
-                return new Node
-                {
-                    Id = _root.Id,
-                    Left = _root.Left,
-                    Right = _root.Right,
-                    Value = _root.Value
-                };
+                return _root;
         }
 
         return default;
